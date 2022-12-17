@@ -102,6 +102,24 @@ div {
 .img-bg-05 {
     background-image: url('../img/img5.png');
 }
+.img-bg-06 {
+    background-image: url('../img/img6.png');
+}
+.img-bg-07 {
+    background-image: url('../img/img7.png');
+}
+.img-bg-08 {
+    background-image: url('../img/img8.png');
+}
+.img-bg-09 {
+    background-image: url('../img/img9.png');
+}
+.img-bg-10 {
+    background-image: url('../img/img10.png');
+}
+.img-bg-11 {
+    background-image: url('../img/img11.png');
+}
 
 /*スクロールするコンテンツ*/
 .scrollbox1 {
@@ -120,5 +138,20 @@ div {
     background-color: white;
 }
 .scrollbox6 {
+    background-color: white;
+}
+.scrollbox7 {
+    background-color: white;
+}
+.scrollbox8 {
+    background-color: white;
+}
+.scrollbox9 {
+    background-color: white;
+}
+.scrollbox10 {
+    background-color: white;
+}
+.scrollbox11 {
     background-color: white;
 }
