@@ -1,0 +1,64 @@
+ul.menu {
+    margin: 0px;  
+    padding: 0px 0px 0px 15px;
+    background-color: #28598F;
+    padding: 0px 25%;
+}
+
+ul.menu li {
+    width: 125px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative; 
+}
+ul.menu a {
+    background-color: #28598F; 
+    color: white;  
+    line-height: 40px;      
+    text-align: center;       
+    text-decoration: none;    
+    font-weight: bold;
+    display: block;
+}
+ul.menu a:hover {
+    background-color: #FFDAA2;
+    color: #28598F;
+}
+
+ul.menu ul {
+    display: none;
+}
+/*サブメニュー*/
+ul.menu ul {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+ul.menu li:hover ul {
+    display: block;
+}
+
+ul.menu ul li {
+    width: 125px;
+    border-top: 1px solid white;
+}
+ul.menu ul li a {
+    line-height: 35px;  
+    text-align: left;    
+    padding-left: 5px;   
+    font-weight: normal;
+}
+ul.menu ul li a:hover {
+    background-color: #FFDAA2; 
+    color: #2c5736;            
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
