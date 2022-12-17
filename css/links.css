@@ -1,65 +1,59 @@
 ul.menu {
-    margin: 0px;               /* メニューバー外側の余白(ゼロ) */
-    padding: 0px 0px 0px 15px; /* メニューバー内側の余白(左に15px) */
-    background-color: #28598F; /* バーの背景色(濃い赤色) */
+    margin: 0px;  
+    padding: 0px 0px 0px 15px;
+    background-color: #28598F;
     padding: 0px 25%;
 }
 
-/* ▼メインメニュー項目の装飾 */
 ul.menu li {
-    width: 125px;           /* メニュー項目の横幅(125px) */
-    display: inline-block;  /* ★1:横並びに配置する */
-    list-style-type: none;  /* ★2:リストの先頭記号を消す */
-    position: relative;     /* ★3:サブメニュー表示の基準位置にする */
+    width: 125px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative; 
 }
 ul.menu a {
-    background-color: #28598F; /* メニュー項目の背景色(濃い赤色) */
-    color: white;              /* メニュー項目の文字色(白色) */
-    line-height: 40px;         /* メニュー項目のリンクの高さ(40px) */
-    text-align: center;        /* メインメニューの文字列の配置(中央寄せ) */
-    text-decoration: none;     /* メニュー項目の装飾(下線を消す) */
-    font-weight: bold;         /* 太字にする */
-    display: block;            /* ★4:項目内全域をリンク可能にする */
+    background-color: #28598F; 
+    color: white;  
+    line-height: 40px;      
+    text-align: center;       
+    text-decoration: none;    
+    font-weight: bold;
+    display: block;
 }
 ul.menu a:hover {
-    background-color: #FFDAA2; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
-    color: #28598F;            /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+    background-color: #FFDAA2;
+    color: #28598F;
 }
 
-/* ▼サブメニューは、とりあえず非表示にしておく */
 ul.menu ul {
-    display: none;         /* ★5:非表示にする */
+    display: none;
 }
 /*サブメニュー*/
 ul.menu ul {
-    display: none;       /* ★1:標準では非表示にする */
-    margin: 0px;         /* ★2:サブメニュー外側の余白(ゼロ) */
-    padding: 0px;        /* ★3:サブメニュー内側の余白(ゼロ) */
-    position: absolute;  /* ★4:絶対配置にする */
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
 }
 
-/* ▼サブメニューがある場合に開く処理 */
-/* ※サブメニューが1階層しか存在しない場合の記述 */
 ul.menu li:hover ul {
-    display: block;      /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+    display: block;
 }
 
-/* ▼サブメニュー項目の装飾 */
-ul.menu ul li {   /* ※A */
-    width: 125px;               /* サブメニュー1項目の横幅(135px) */
-    border-top: 1px solid white; /* 項目上側の枠線(ピンク色で1pxの実線) */
+ul.menu ul li {
+    width: 125px;
+    border-top: 1px solid white;
 }
- ul.menu ul li a {   /* ※B */
-    line-height: 35px;   /* サブメニュー1項目の高さ(35px) */
-    text-align: left;    /* 文字列の配置(左寄せ) */
-    padding-left: 5px;   /* 文字列前方の余白(5px) */
-    font-weight: normal; /* 太字にはしない */
+ul.menu ul li a {
+    line-height: 35px;  
+    text-align: left;    
+    padding-left: 5px;   
+    font-weight: normal;
 }
- ul.menu ul li a:hover {   /* ※C */
-    background-color: #FFDAA2; /* サブメニュー項目にマウスが載ったときの背景色(淡い黄色) */
-    color: #2c5736;            /* サブメニュー項目にマウスが載ったときの文字色(濃い緑色) */
+ul.menu ul li a:hover {
+    background-color: #FFDAA2; 
+    color: #2c5736;            
 }
-/*画面全体の設定*/
 body,
 html {
     height: 100%;
