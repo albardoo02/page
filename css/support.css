@@ -64,5 +64,13 @@ html {
     height: 100%;
     margin: 0 auto;
     letter-spacing: 2px;
-    font-size: 10px;
+    font-size: 15px;
+}
+
+h2 {
+    padding: 10px 20%;
+}
+
+.text {
+    padding: 10px 20%;
 }
