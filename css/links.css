@@ -2,6 +2,7 @@ ul.menu {
     margin: 0px;               /* メニューバー外側の余白(ゼロ) */
     padding: 0px 0px 0px 15px; /* メニューバー内側の余白(左に15px) */
     background-color: #28598F; /* バーの背景色(濃い赤色) */
+    padding: 0px 25%;
 }
 
 /* ▼メインメニュー項目の装飾 */
@@ -45,7 +46,7 @@ ul.menu li:hover ul {
 
 /* ▼サブメニュー項目の装飾 */
 ul.menu ul li {   /* ※A */
-    width: 135px;               /* サブメニュー1項目の横幅(135px) */
+    width: 125px;               /* サブメニュー1項目の横幅(135px) */
     border-top: 1px solid white; /* 項目上側の枠線(ピンク色で1pxの実線) */
 }
  ul.menu ul li a {   /* ※B */
